@@ -4,18 +4,6 @@
 <dict>
 	<key>#Apply To</key>
 	<string>Tiny Monster Pro</string>
-	<key>#Build Date</key>
-	<string>11-19-2021</string>
-	<key>#EFI Version</key>
-	<string>v1.2.0</string>
-	<key>#Maker by</key>
-	<string>黑果小兵</string>
-	<key>#OpenCore Version</key>
-	<string>v0.7.6 Release</string>
-	<key>#Posted on</key>
-	<string>黑果小兵的部落阁 https://blog.daliansky.net</string>
-	<key>#Repo</key>
-	<string>https://github.com/daliansky/TinyMonsterPro-Hackintosh</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
