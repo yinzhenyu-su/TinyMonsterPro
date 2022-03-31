@@ -4,6 +4,18 @@
 <dict>
 	<key>#Apply To</key>
 	<string>Tiny Monster Pro</string>
+	<key>#Build Date</key>
+	<string>11-19-2021</string>
+	<key>#EFI Version</key>
+	<string>v1.2.0</string>
+	<key>#Maker by</key>
+	<string>黑果小兵</string>
+	<key>#OpenCore Version</key>
+	<string>v0.7.6 Release</string>
+	<key>#Posted on</key>
+	<string>黑果小兵的部落阁 https://blog.daliansky.net</string>
+	<key>#Repo</key>
+	<string>https://github.com/daliansky/TinyMonsterPro-Hackintosh</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -158,10 +170,8 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAwA==</data>
+				<data>AAAAgA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -195,7 +205,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>V1.2.8</string>
+				<string>V1.2.9</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -213,7 +223,7 @@
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string>V1.2.8</string>
+				<string>V1.2.9</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -231,7 +241,7 @@
 				<key>BundlePath</key>
 				<string>SMCSuperIO.kext</string>
 				<key>Comment</key>
-				<string>V1.2.8</string>
+				<string>V1.2.9</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -249,7 +259,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>V1.6.9</string>
+				<string>V1.7.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -337,24 +347,6 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
-				<key>Comment</key>
-				<string>V1.0</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
 				<key>Comment</key>
 				<string>V1.0</string>
@@ -364,6 +356,24 @@
 				<string></string>
 				<key>MaxKernel</key>
 				<string>19.99.99</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
+				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
+				<key>Comment</key>
+				<string>V1.0</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -447,7 +457,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>V1.5.7</string>
+				<string>V1.5.8</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -470,6 +480,24 @@
 				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/itlwm</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AirportItlwm.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -565,7 +593,7 @@
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
-			<string>Disabled</string>
+			<string>Full</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -597,6 +625,8 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>0</integer>
+			<key>LogModules</key>
+			<string>*</string>
 			<key>SerialInit</key>
 			<false/>
 			<key>SysReport</key>
@@ -747,13 +777,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-			<dict>
-				<key>DefaultBackgroundColor</key>
-				<data>AAAAAA==</data>
-				<key>UIScale</key>
-				<data>AQ==</data>
-			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
@@ -762,11 +785,6 @@
 		</dict>
 		<key>Delete</key>
 		<dict>
-			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-			<array>
-				<string>UIScale</string>
-				<string>DefaultBackgroundColor</string>
-			</array>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<array>
 				<string>rtc-blacklist</string>
