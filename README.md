@@ -1,4 +1,4 @@
-# TinyMonsterPro
+# GEEKON TinyMonster PRO Hackintosh EFI
 TinyMonsterPro 黑苹果 EFI（基于黑果小兵的EFI）
 
 已通过日常使用测试
